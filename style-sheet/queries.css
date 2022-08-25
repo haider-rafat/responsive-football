@@ -1,0 +1,41 @@
+/* ------------------
+
+RESPONSIVE 
+
+----------------------*/
+
+
+@media only screen and (width:388px) {
+
+
+
+    /* header banner  */
+    
+    
+        .header-title,
+        .header-banner {
+            margin: 0;
+        }
+    
+    
+        
+    .header{
+        width: auto;
+    }
+    .header-banner{
+       display: none;
+    }
+    
+    
+    
+    /*---------------------
+    
+    player grid card 
+    
+    --------------------*/
+    .grid-card{
+        grid-template-columns: 1fr;
+    }
+    
+    
+    }
